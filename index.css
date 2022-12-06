@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+img {
+   width: 290px;
+}
+
+.bola1, .bola2, .bola3, .bola4 {
+    border: 5px solid #eadcdc;
+    filter: drop-shadow(2px 1px aqua);
+    width: 300px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3%;
+}
+
+.kottaodam {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-ota {
+    text-align: center;
+    margin: 30px;
+}
+
+.btn-ota {
+    background-color: rgb(41, 32, 32);
+    color: aqua;
+    font-size: 33px;
+    width: 190px;
+    border: 2px solid aqua;
+    width: 200px;
+    transition: 1s ease;
+}
+
+.btn-ota:hover {
+    background-color: aqua;
+    color: #000;
+    border: rgb(0, 0, 0) 2px solid;
+    width: 200px;
+}
